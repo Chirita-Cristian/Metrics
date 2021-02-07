@@ -1,0 +1,74 @@
+vagrant -v
+git clone https://github.com/igabriel85/vagrant-spark2.git
+cv vagrant-spark2\
+python pyspark_pi.py 
+python3 pyspark_pi.py 
+ssh 
+spark-submit --class org.apache.spark.examples.SparkPi --master spark://ubuntu-bionic:7077 /usr/local/spark/examples/jars/spark-examples_2.11-2.1.1.jar 100
+./start-master.sh
+/start-master.sh
+ssh vagrant@127.0.0.1 -p 2222 -i C:/Users/Cristian Chirita/Desktop/ASD/vagrant-spark2/.vagrant/machines/default/virtualbox/private_key
+vagrant ssh-config
+ssh -i .vagrant/machines/default/virtualbox/private_key vagrant@192.168.33.71 
+ssh -i .vagrant/machines/default/virtualbox/private_key vagrant@127.0.0.1
+ssh-keygen
+ssh-add C:\Users\Cristian Chirita\.ssh\id_rsa\key
+ssh-add C:\Users\Cristian Chirita\.ssh\id_rsa\known_hosts
+ssh-add C:\Users\Cristian Chirita\.ssh\
+ssh -add C:\Users\Cristian Chirita\.ssh\
+ssh -add C:\Users\Cristian Chirita\.ssh\known_hots
+ssh -add C:\Users\Cristian Chirita\.ssh\known_hosts
+ssh-add C:\Users\Cristian Chirita\.ssh\known_hosts
+ssh-add "C:\Users\Cristian Chirita\.ssh\known_hosts"
+vagrant ssh vagrant@127.0.0.1 -p 2222
+vagrant ssh vagrant@127.0.0.1
+  config.vm.synced_folder '.', '/home/vagrant/somepath'
+vagrant ssh -- -vv
+vagrant ssh -- -i ~/.ssh/id_rsa
+vagrant ssh -- -i ~/.ssh/known_hosts
+ssh -i .vagrant/machines/default/virtualbox/private_key vagrant@127.0.0.1 -p 2222
+cd vagrant-spark2\
+./startJupyter.sh
+startJupyter.sh
+ssh-add C:\Users\Cristian Chirita\Desktop\ASD\vagrant-spark2\key
+ssh-add C:\Users\Cristian Chirita\Desktop\ASD\vagrant-spark2\key.pub
+ssh-add "C:\Users\Cristian Chirita\Desktop\ASD\vagrant-spark2\key"
+ssh-add C:/Users/Cristian Chirita/Desktop/ASD/vagrant-spark2/key
+ssh-add 'C:/Users/Cristian Chirita/Desktop/ASD/vagrant-spark2/key'
+ssh-add E:\key
+ssh-add E:\key.pub
+ssh-add E:/key.pub
+ssh-add
+add
+ssh
+ssh add
+ssh 127.0.0,1
+ssh 127.0.0.11
+ssh 127.0.0.1
+ssh 127.0.0.1 -p 2222
+ssh root 127.0.0.1 -p 2222
+vagrant ssh
+install github
+git chechout
+git checkout
+whet https://github.com/garystafford/pyspark-setup-demo/blob/master/work/04_pyspark_demo_notebook.ipynb
+wget https://github.com/garystafford/pyspark-setup-demo/blob/master/work/04_pyspark_demo_notebook.ipynb
+git checkout https://github.com/garystafford/pyspark-setup-demo/blob/master/work/04_pyspark_demo_notebook.ipynb
+vagrant plugin install vagrant-vbguest
+vangrant up
+vagrant plugin install vagrant-hostmanager
+vagrant plugin install vagrant-disksize
+vagrant reload
+LS
+8082
+-- provision
+vagrant 
+vagrant provision\
+cd vagrant-spark2
+cd ..
+ls
+cd vagrant-spark2-master\
+cd "monitoring example\
+vagrant up
+vagrant provision
+vagrant up\
